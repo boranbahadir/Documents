@@ -40,6 +40,7 @@ class Kediler(Hayvan):
 	def __str__(self):
 		return("\nHayvan durumu: {}\nSes: {}\nAçlık: {}\nSusuzluk: {}".format(self.nefes,self.miyavla,self.yemekye,self.suiç))
 
+
 class Kuş(Hayvan):
 		
 	def __init__(self,öt = "Ötmüyor.",nefes = "Nefes almıyor",yemekye = "Yemek yemiyor",suiç = "Su içmiyor"):
